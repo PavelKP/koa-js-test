@@ -17,6 +17,7 @@
     "dotenv": "^10.0.0",
     "keymirror": "^0.1.1",
     "koa": "2.13.1",
+    "koa-compose": "^4.1.0",
     "mongoose": "5.12.10"
   },
   "devDependencies": {

@@ -2,11 +2,11 @@ import {MONGO_URI} from '../config';
 import mongooseConnector from './mongoose-connector';
 
 function connectorsInit() {
-    mongooseConnector(MONGO_URI);
+  mongooseConnector(MONGO_URI);
 }
 
 export {
-    mongooseConnector,
-}
+  mongooseConnector,
+};
 
 export default connectorsInit;

@@ -7,7 +7,7 @@ dotenv.config(); // инициализируем библиотеку dotenv
 
 // Проверка на несуществующее окружение
 if (!envs[env]) {
-	throw Error(`unknown env ${env}`)
+  throw Error(`unknown env ${env}`);
 }
 
 // Сетим переменные в глобальное окружение ноды
